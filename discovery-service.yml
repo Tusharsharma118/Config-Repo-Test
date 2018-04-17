@@ -1,5 +1,11 @@
+spring:
+  application:
+    name: discovery-service
+
+
 server:  
   port: ${PORT:8761}
+
     
 eureka:  
   instance:
@@ -10,7 +16,3 @@ eureka:
   server:
     enableSelfPreservation: false  
 	
-
-spring:
-  application:
-    name: discovery-service

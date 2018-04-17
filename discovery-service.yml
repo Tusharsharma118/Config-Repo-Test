@@ -14,5 +14,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   server:
-    enableSelfPreservation: false  
-	
+    enableSelfPreservation: false
